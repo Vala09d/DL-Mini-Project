@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.weights
+*.bin
+*.safetensors
+runs/
+
+# Large media files (videos)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+videos N Outputs/
+videos/
+
+# Output videos
+output/*.mp4
+output/*.mov
+output/*.avi
+
+# Environment variables & credentials
+.env
+.env.*
+*.key
+*.pem
+credentials/
+
+# OS generated files
+.DS_Store
+Thumbs.db
